@@ -3,8 +3,8 @@ import argparse
 
 import numpy as np
 
-from ../bilm.training import train, load_options_latest_checkpoint, load_vocab
-from ../bilm.data import BidirectionalLMDataset
+from training import train, load_options_latest_checkpoint, load_vocab
+from data import BidirectionalLMDataset
 
 
 def main(args):
